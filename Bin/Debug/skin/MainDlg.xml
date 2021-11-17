@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="800,628" mininfo="800,628" caption="0,0,0,628" showshadow="true" shadowcolor="0xFFCF3AB2" shadowsize="5" shadowcorner="9,9,9,9">
+	<Font id="0" name="微软雅黑" size="12" default="true" />
+	<VerticalLayout name="Wnd_BackGround"  inset="0,0,0,0" bkcolor="#FFFFFFFF" bordersize="0" bordercolor="#FF18253D">
+		<VerticalLayout name="title"  bkcolor="#FF18253D" height="40">
+			<HorizontalLayout height="40"  >
+				<HorizontalLayout width="130" >
+					<Label text="demo" float="true" pos="10,10,130,30" font="0" textcolor="#FFFFFFFF" align="left"/>	
+				</HorizontalLayout>
+				<HorizontalLayout>	</HorizontalLayout>
+				<HorizontalLayout width="50">
+					<Button name="btn_close" maxwidth="24" tooltip="关闭" maxheight="24" float="true" pos="10,8,34,32"  normalimage="file='ic_header_close.png' source='0,0,24,24'" hotimage="file='ic_header_close_hover.png' source='0,0,24,24'" pushedimage="file='ic_header_close_hover.png' source='0,0,24,24'"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+		</VerticalLayout>
+		<VerticalLayout padding="0,5,0,0" height="50">
+			<Button name="send" text="发送" height="40" width="50" bkcolor="0xFF6189D0" padding="25,5,0,0"/>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>
